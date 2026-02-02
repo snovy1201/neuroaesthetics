@@ -1,0 +1,164 @@
+[0.011s] Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/snovyang/neuroaesthetics/install/proj_pkg:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces -- -j8 -l8
+[0.097s] [  2%] Built target mocap_optitrack_interfaces__cpp
+[0.098s] [ 12%] Built target mocap_optitrack_interfaces__rosidl_generator_c
+[0.101s] [ 12%] Built target ament_cmake_python_copy_mocap_optitrack_interfaces
+[0.111s] [ 23%] Built target mocap_optitrack_interfaces__rosidl_typesupport_c
+[0.112s] [ 33%] Built target mocap_optitrack_interfaces__rosidl_typesupport_cpp
+[0.112s] [ 43%] Built target mocap_optitrack_interfaces__rosidl_typesupport_introspection_c
+[0.114s] [ 53%] Built target mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.114s] [ 64%] Built target mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_c
+[0.115s] [ 74%] Built target mocap_optitrack_interfaces__rosidl_typesupport_introspection_cpp
+[0.125s] [ 74%] Built target mocap_optitrack_interfaces
+[0.136s] [ 76%] Built target mocap_optitrack_interfaces__py
+[0.148s] [ 84%] Built target mocap_optitrack_interfaces__rosidl_generator_py
+[0.159s] [100%] Built target mocap_optitrack_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.159s] [100%] Built target mocap_optitrack_interfaces__rosidl_typesupport_c__pyext
+[0.159s] [100%] Built target mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.264s] running egg_info
+[0.264s] writing mocap_optitrack_interfaces.egg-info/PKG-INFO
+[0.265s] writing dependency_links to mocap_optitrack_interfaces.egg-info/dependency_links.txt
+[0.265s] writing top-level names to mocap_optitrack_interfaces.egg-info/top_level.txt
+[0.266s] reading manifest file 'mocap_optitrack_interfaces.egg-info/SOURCES.txt'
+[0.267s] writing manifest file 'mocap_optitrack_interfaces.egg-info/SOURCES.txt'
+[0.285s] [100%] Built target ament_cmake_python_build_mocap_optitrack_interfaces_egg
+[0.289s] Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/snovyang/neuroaesthetics/install/proj_pkg:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces -- -j8 -l8
+[0.357s] Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/snovyang/neuroaesthetics/install/proj_pkg:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces
+[0.429s] -- Install configuration: ""
+[0.429s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/ament_index/resource_index/rosidl_interfaces/mocap_optitrack_interfaces
+[0.429s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.429s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.429s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rigid_body.h
+[0.429s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rigid_body_array.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__struct.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__functions.c
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__type_support.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__functions.c
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__functions.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__struct.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__functions.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__type_support.h
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/library_path.sh
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/library_path.dsv
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_generator_c.so
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.430s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__rosidl_typesupport_fastrtps_c.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__type_support.c
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__type_support.c
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__rosidl_typesupport_introspection_c.h
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_introspection_c.so
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_c.so
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.431s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rigid_body.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__type_support.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__struct.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__builder.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__type_support.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__traits.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__traits.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__struct.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__builder.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rigid_body_array.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[0.432s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/dds_fastrtps
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__type_support.cpp
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__rosidl_typesupport_introspection_cpp.hpp
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/include/mocap_optitrack_interfaces/mocap_optitrack_interfaces/msg/detail/rigid_body_array__type_support.cpp
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_typesupport_cpp.so
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/pythonpath.sh
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/pythonpath.dsv
+[0.433s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces-0.0.1-py3.10.egg-info
+[0.433s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.433s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.433s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[0.434s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/__init__.py
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/_mocap_optitrack_interfaces_s.ep.rosidl_typesupport_c.c
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/_mocap_optitrack_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/libmocap_optitrack_interfaces__rosidl_generator_py.so
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg/__init__.py
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg/_rigid_body.py
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg/_rigid_body_array_s.c
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg/_rigid_body_array.py
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg/_rigid_body_s.c
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.434s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/_mocap_optitrack_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.463s] Listing '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces'...
+[0.463s] Listing '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/msg'...
+[0.467s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.467s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.467s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages/mocap_optitrack_interfaces/mocap_optitrack_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.467s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/libmocap_optitrack_interfaces__rosidl_generator_py.so
+[0.467s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/msg/RigidBody.idl
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/msg/RigidBodyArray.idl
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/msg/RigidBody.msg
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/msg/RigidBodyArray.msg
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack_interfaces
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack_interfaces
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/ament_prefix_path.sh
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/ament_prefix_path.dsv
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/path.sh
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/environment/path.dsv
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/local_setup.bash
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/local_setup.sh
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/local_setup.zsh
+[0.468s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/local_setup.dsv
+[0.468s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.dsv
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/ament_index/resource_index/packages/mocap_optitrack_interfaces
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_generator_cExport.cmake
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.469s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_cExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_generator_cppExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_cppExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_generator_pyExport.cmake
+[0.470s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/export_mocap_optitrack_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfacesConfig.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake/mocap_optitrack_interfacesConfig-version.cmake
+[0.471s] -- Up-to-date: /home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.xml
+[0.472s] Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/snovyang/neuroaesthetics/install/proj_pkg:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces

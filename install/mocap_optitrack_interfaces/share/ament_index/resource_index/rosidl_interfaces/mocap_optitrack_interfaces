@@ -1,0 +1,4 @@
+msg/RigidBody.idl
+msg/RigidBody.msg
+msg/RigidBodyArray.idl
+msg/RigidBodyArray.msg

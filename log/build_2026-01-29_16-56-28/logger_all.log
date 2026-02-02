@@ -1,0 +1,334 @@
+[0.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.085s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x703a38736ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x703a38878220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x703a38878220>>)
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.227s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/snovyang/neuroaesthetics'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/launch) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_client) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_pkg/mocap_optitrack_client' with type 'ros.ament_cmake' and name 'mocap_optitrack_client'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg/mocap_optitrack_interfaces) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_pkg/mocap_optitrack_interfaces' with type 'ros.ament_cmake' and name 'mocap_optitrack_interfaces'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/proj_pkg) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proj_pkg' with type 'ros.ament_python' and name 'proj_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/testHumanTrajectory) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/snovyang/ros2_ws/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/snovyang/ros2_aura_ws/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 202 installed packages in /opt/ros/humble
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'mocap_optitrack_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces', 'merge_install': False, 'path': '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'mocap_optitrack_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client', 'merge_install': False, 'path': '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'proj_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'proj_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/snovyang/neuroaesthetics/build/proj_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/snovyang/neuroaesthetics/install/proj_pkg', 'merge_install': False, 'path': '/home/snovyang/neuroaesthetics/src/proj_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces
+[2.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces
+[2.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces -- -j8 -l8
+[4.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces -- -j8 -l8
+[5.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces
+[5.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack_interfaces)
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces' for CMake module files
+[5.133s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces' for CMake config files
+[5.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'cmake_prefix_path')
+[5.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.ps1'
+[5.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.dsv'
+[5.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.sh'
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib'
+[5.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'ld_library_path_lib')
+[5.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.ps1'
+[5.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.dsv'
+[5.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.sh'
+[5.136s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/bin'
+[5.136s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/pkgconfig/mocap_optitrack_interfaces.pc'
+[5.136s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages'
+[5.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'pythonpath')
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.ps1'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.dsv'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.sh'
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/bin'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.ps1'
+[5.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.dsv'
+[5.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.sh'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.bash'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.zsh'
+[5.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/colcon-core/packages/mocap_optitrack_interfaces)
+[5.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack_interfaces)
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces' for CMake module files
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces' for CMake config files
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'cmake_prefix_path')
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.dsv'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/cmake_prefix_path.sh'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib'
+[5.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'ld_library_path_lib')
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.ps1'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.dsv'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/ld_library_path_lib.sh'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/bin'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/pkgconfig/mocap_optitrack_interfaces.pc'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages'
+[5.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_interfaces', 'pythonpath')
+[5.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.ps1'
+[5.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.dsv'
+[5.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/hook/pythonpath.sh'
+[5.146s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/bin'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.ps1'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.dsv'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.sh'
+[5.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.bash'
+[5.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/package.zsh'
+[5.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/colcon-core/packages/mocap_optitrack_interfaces)
+[5.149s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client' with build type 'ament_cmake'
+[5.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client'
+[5.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.152s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/snovyang/neuroaesthetics/src/proj_pkg' with build type 'ament_python'
+[5.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj_pkg', 'ament_prefix_path')
+[5.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/ament_prefix_path.ps1'
+[5.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/ament_prefix_path.dsv'
+[5.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/ament_prefix_path.sh'
+[5.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_client
+[5.398s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/snovyang/neuroaesthetics/src/proj_pkg'
+[5.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/src/proj_pkg': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/build/proj_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages:/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/proj_pkg build --build-base /home/snovyang/neuroaesthetics/build/proj_pkg/build install --record /home/snovyang/neuroaesthetics/build/proj_pkg/install.log --single-version-externally-managed install_data
+[6.006s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg' for CMake module files
+[6.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/src/proj_pkg' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/build/proj_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages:/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/proj_pkg build --build-base /home/snovyang/neuroaesthetics/build/proj_pkg/build install --record /home/snovyang/neuroaesthetics/build/proj_pkg/install.log --single-version-externally-managed install_data
+[6.007s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg' for CMake config files
+[6.007s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg/lib'
+[6.007s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg/bin'
+[6.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj_pkg', 'path')
+[6.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/path.ps1'
+[6.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/path.dsv'
+[6.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/path.sh'
+[6.008s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg/lib/pkgconfig/proj_pkg.pc'
+[6.008s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages'
+[6.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj_pkg', 'pythonpath')
+[6.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonpath.ps1'
+[6.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonpath.dsv'
+[6.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonpath.sh'
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/proj_pkg/bin'
+[6.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('proj_pkg', 'pythonscriptspath')
+[6.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonscriptspath.ps1'
+[6.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonscriptspath.dsv'
+[6.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/hook/pythonscriptspath.sh'
+[6.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proj_pkg)
+[6.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/package.ps1'
+[6.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/package.dsv'
+[6.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/package.sh'
+[6.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/package.bash'
+[6.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg/package.zsh'
+[6.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/snovyang/neuroaesthetics/install/proj_pkg/share/colcon-core/packages/proj_pkg)
+[6.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_client
+[6.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_client -- -j8 -l8
+[12.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_client -- -j8 -l8
+[12.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_client
+[12.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack_client)
+[12.399s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client' for CMake module files
+[12.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_client
+[12.400s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client' for CMake config files
+[12.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_client', 'cmake_prefix_path')
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.ps1'
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.dsv'
+[12.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.sh'
+[12.401s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib'
+[12.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_client', 'ld_library_path_lib')
+[12.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.ps1'
+[12.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.dsv'
+[12.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.sh'
+[12.402s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/bin'
+[12.402s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/pkgconfig/mocap_optitrack_client.pc'
+[12.402s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/python3.10/site-packages'
+[12.402s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/bin'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.ps1'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.dsv'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.sh'
+[12.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.bash'
+[12.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.zsh'
+[12.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/colcon-core/packages/mocap_optitrack_client)
+[12.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack_client)
+[12.405s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client' for CMake module files
+[12.405s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client' for CMake config files
+[12.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_client', 'cmake_prefix_path')
+[12.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.ps1'
+[12.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.dsv'
+[12.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/cmake_prefix_path.sh'
+[12.407s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib'
+[12.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack_client', 'ld_library_path_lib')
+[12.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.ps1'
+[12.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.dsv'
+[12.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/hook/ld_library_path_lib.sh'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/bin'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/pkgconfig/mocap_optitrack_client.pc'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/python3.10/site-packages'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/bin'
+[12.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.ps1'
+[12.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.dsv'
+[12.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.sh'
+[12.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.bash'
+[12.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.zsh'
+[12.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/colcon-core/packages/mocap_optitrack_client)
+[12.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.415s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.415s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.415s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.426s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/snovyang/neuroaesthetics/install/local_setup.ps1'
+[12.427s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/snovyang/neuroaesthetics/install/_local_setup_util_ps1.py'
+[12.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/snovyang/neuroaesthetics/install/setup.ps1'
+[12.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/snovyang/neuroaesthetics/install/local_setup.sh'
+[12.430s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/snovyang/neuroaesthetics/install/_local_setup_util_sh.py'
+[12.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/snovyang/neuroaesthetics/install/setup.sh'
+[12.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/snovyang/neuroaesthetics/install/local_setup.bash'
+[12.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/snovyang/neuroaesthetics/install/setup.bash'
+[12.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/snovyang/neuroaesthetics/install/local_setup.zsh'
+[12.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/snovyang/neuroaesthetics/install/setup.zsh'

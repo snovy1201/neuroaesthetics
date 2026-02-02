@@ -1,0 +1,73 @@
+[0.009s] Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_client
+[0.081s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.081s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.081s]   CMake.
+[0.081s] 
+[0.081s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.081s]   to tell CMake that the project requires at least <min> but has been updated
+[0.081s]   to work with policies introduced by <max> or earlier.
+[0.081s] 
+[0.081s] [0m
+[0.123s] -- The C compiler identification is GNU 13.1.0
+[0.176s] -- The CXX compiler identification is GNU 13.1.0
+[0.185s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.456s] -- Found Python3: /home/snovyang/neuroaesthetics/.venv/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.536s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.586s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.680s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.785s] -- Found FastRTPS: /opt/ros/humble/include
+[0.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.900s] -- Found Threads: TRUE
+[0.959s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.990s] -- Found mocap_optitrack_interfaces: 0.0.1 (/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/share/mocap_optitrack_interfaces/cmake)
+[1.713s] -- Configuring done (1.6s)
+[1.808s] -- Generating done (0.1s)
+[1.814s] -- Build files have been written to: /home/snovyang/neuroaesthetics/build/mocap_optitrack_client
+[1.825s] Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake /home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_client -DCMAKE_INSTALL_PREFIX=/home/snovyang/neuroaesthetics/install/mocap_optitrack_client
+[1.826s] Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_client -- -j8 -l8
+[1.935s] [ 66%] [32mBuilding CXX object CMakeFiles/mocap_optitrack_client.dir/src/MoCapPublisher.cpp.o[0m
+[1.935s] [ 66%] [32mBuilding CXX object CMakeFiles/mocap_optitrack_client.dir/src/MoCapNatNetClient.cpp.o[0m
+[6.310s] [100%] [32m[1mLinking CXX executable mocap_optitrack_client[0m
+[7.172s] [100%] Built target mocap_optitrack_client
+[7.176s] Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --build /home/snovyang/neuroaesthetics/build/mocap_optitrack_client -- -j8 -l8
+[7.177s] Invoking command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_client
+[7.244s] -- Install configuration: ""
+[7.244s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/mocap_optitrack_client/mocap_optitrack_client
+[7.245s] -- Set non-toolchain portion of runtime path of "/home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/mocap_optitrack_client/mocap_optitrack_client" to ""
+[7.245s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/lib/libNatNet.so
+[7.246s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/config
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/config/natnetclient.yaml
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack_client
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack_client
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/environment/ament_prefix_path.sh
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/environment/ament_prefix_path.dsv
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/environment/path.sh
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/environment/path.dsv
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/local_setup.bash
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/local_setup.sh
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/local_setup.zsh
+[7.247s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/local_setup.dsv
+[7.248s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.dsv
+[7.248s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/ament_index/resource_index/packages/mocap_optitrack_client
+[7.248s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/cmake/mocap_optitrack_clientConfig.cmake
+[7.248s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/cmake/mocap_optitrack_clientConfig-version.cmake
+[7.248s] -- Installing: /home/snovyang/neuroaesthetics/install/mocap_optitrack_client/share/mocap_optitrack_client/package.xml
+[7.250s] Invoked command in '/home/snovyang/neuroaesthetics/build/mocap_optitrack_client' returned '0': AMENT_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces:/home/snovyang/ros2_aura_ws/install/turtlesim:/home/snovyang/ros2_aura_ws/install/my_package:/home/snovyang/ros2_aura_ws/install/emotibit_pubsub:/home/snovyang/ros2_aura_ws/install/cpp_pubsub:/home/snovyang/ros2_aura_ws/install/emotibit_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/snovyang/neuroaesthetics/install/mocap_optitrack_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/snovyang/.local/bin/cmake --install /home/snovyang/neuroaesthetics/build/mocap_optitrack_client

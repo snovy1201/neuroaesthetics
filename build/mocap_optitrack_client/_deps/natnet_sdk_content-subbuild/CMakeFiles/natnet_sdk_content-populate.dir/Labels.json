@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/CMakeFiles/natnet_sdk_content-populate"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/CMakeFiles/natnet_sdk_content-populate.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/CMakeFiles/natnet_sdk_content-populate-complete.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-build.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-configure.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-download.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-install.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-patch.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-test.rule"
+		},
+		{
+			"file" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/_deps/natnet_sdk_content-subbuild/natnet_sdk_content-populate-prefix/src/natnet_sdk_content-populate-stamp/natnet_sdk_content-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"natnet_sdk_content-populate"
+		],
+		"name" : "natnet_sdk_content-populate"
+	}
+}

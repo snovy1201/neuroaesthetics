@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/proj_pkg/proj_pkg.egg-info
+writing ../../build/proj_pkg/proj_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/proj_pkg/proj_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/proj_pkg/proj_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/proj_pkg/proj_pkg.egg-info/requires.txt
+writing top-level names to ../../build/proj_pkg/proj_pkg.egg-info/top_level.txt
+writing manifest file '../../build/proj_pkg/proj_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/proj_pkg/proj_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/proj_pkg/proj_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/snovyang/neuroaesthetics/build/proj_pkg/build
+creating /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib
+creating /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib/proj_pkg
+copying proj_pkg/visualizer.py -> /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib/proj_pkg
+copying proj_pkg/__init__.py -> /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib/proj_pkg
+running install
+running install_lib
+creating /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg
+copying /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib/proj_pkg/visualizer.py -> /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg
+copying /home/snovyang/neuroaesthetics/build/proj_pkg/build/lib/proj_pkg/__init__.py -> /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg
+byte-compiling /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg/visualizer.py to visualizer.cpython-310.pyc
+byte-compiling /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/snovyang/neuroaesthetics/install/proj_pkg/share/ament_index
+creating /home/snovyang/neuroaesthetics/install/proj_pkg/share/ament_index/resource_index
+creating /home/snovyang/neuroaesthetics/install/proj_pkg/share/ament_index/resource_index/packages
+copying resource/proj_pkg -> /home/snovyang/neuroaesthetics/install/proj_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/snovyang/neuroaesthetics/install/proj_pkg/share/proj_pkg
+running install_egg_info
+Copying ../../build/proj_pkg/proj_pkg.egg-info to /home/snovyang/neuroaesthetics/install/proj_pkg/lib/python3.10/site-packages/proj_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mocap_visualizer script to /home/snovyang/neuroaesthetics/install/proj_pkg/bin
+writing list of installed files to '/home/snovyang/neuroaesthetics/build/proj_pkg/install.log'

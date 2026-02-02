@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mocap_optitrack_interfaces__py",
+		"source" : "/home/snovyang/neuroaesthetics/build/mocap_optitrack_interfaces/mocap_optitrack_interfaces__py"
+	}
+}

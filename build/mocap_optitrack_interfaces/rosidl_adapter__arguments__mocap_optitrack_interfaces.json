@@ -1,0 +1,7 @@
+{
+  "package_name": "mocap_optitrack_interfaces",
+  "non_idl_tuples": [
+    "/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces:msg/RigidBody.msg",
+    "/home/snovyang/neuroaesthetics/src/mocap_pkg/mocap_optitrack_interfaces:msg/RigidBodyArray.msg"
+  ]
+}

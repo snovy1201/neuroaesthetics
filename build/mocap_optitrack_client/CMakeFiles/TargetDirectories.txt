@@ -1,0 +1,10 @@
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/uninstall.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/mocap_optitrack_client_uninstall.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/mocap_optitrack_client.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/test.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/edit_cache.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/rebuild_cache.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/list_install_components.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/install.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/install/local.dir
+/home/snovyang/neuroaesthetics/build/mocap_optitrack_client/CMakeFiles/install/strip.dir
