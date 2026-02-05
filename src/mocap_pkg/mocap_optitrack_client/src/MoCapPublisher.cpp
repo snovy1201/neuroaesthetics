@@ -81,7 +81,7 @@ void MoCapPublisher::sendRigidBodyMessage(double cameraMidExposureSecsSinceEpoch
     //Determine if isStroke
     float tolerance = 0.03; //adjust for increased tolerance for isStroke
     float ignore = 0.05; // ignores when strokes are 5 cm "behind" the canvas
-    Eigen::Vector3d currPos(bodies[i].x, bodies[i].y, bodies[i].z);
+    Eigen::Vector3d currPos(bodies[i].x, -bodies[i].y, bodies[i].z); // TEMP solution: flip y
     Eigen::Quaterniond currQuat(bodies[i].qw, bodies[i].qx, bodies[i].qy, bodies[i].qz);
     currQuat.normalize();
 

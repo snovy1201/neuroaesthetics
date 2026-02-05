@@ -139,7 +139,7 @@ ros2 topic info /mocap_rigid_bodies
 ```
 
 ### Network connection issues
-- Verify OptiTrack workstation IP: `ping 192.168.4.31`
+- Verify OptiTrack workstation IP: `ping 192.168.1.59`
 - Check firewall settings (disable Windows Defender on OptiTrack machine)
 - Ensure Motive is broadcasting on the correct network interface
 

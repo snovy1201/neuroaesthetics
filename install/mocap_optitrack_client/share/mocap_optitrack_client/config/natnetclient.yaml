@@ -28,6 +28,6 @@ natnet_client:
     take_name: "neuroaesthetics"
     # brush lengths (from smallest ID to largest)
     tipDistance1: 0.200
-    tipDistance2: 0.230
-    tipDistance3: 0.250
+    tipDistance2: 0.200
+    tipDistance3: 0.200
   

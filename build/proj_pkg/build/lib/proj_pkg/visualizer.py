@@ -28,10 +28,12 @@ class MocapSubscriber(Node):
         # Store coordinates
         self.xs = deque(maxlen=MAX_POINTS)
         self.zs = deque(maxlen=MAX_POINTS)
+        self.proxs = deque(maxlen=MAX_POINTS)
         
         # ADD THESE LINES - Current position for display
         self.current_x = 0.0
         self.current_z = 0.0
+        self.current_proximity = 0.0
         self.current_time = 0.0
         
         # Optional: store additional info for debugging
@@ -68,11 +70,13 @@ class MocapSubscriber(Node):
                 # UPDATE THESE - Update current position
                 self.current_x = x
                 self.current_z = z
+                self.current_proximity = proximity
                 self.current_time = timestamp_float
             
-                if (y < PROX_THRESH) and (y > -PROX_THRESH):
+                if (proximity < PROX_THRESH) and (proximity > -PROX_THRESH):
                     self.xs.append(x)
                     self.zs.append(z)
+                    self.proxs.append(proximity)
                     self.timestamps.append(timestamp_float)
 
 
@@ -98,7 +102,7 @@ def main(args=None):
                          bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8),
                          fontsize=10)
     
-    time_text = ax.text(0.02, 0.88, '', transform=ax.transAxes,
+    time_text = ax.text(0.02, 0.78, '', transform=ax.transAxes,
                         verticalalignment='top',
                         bbox=dict(boxstyle='round', facecolor='lightblue', alpha=0.8),
                         fontsize=10)
@@ -127,7 +131,7 @@ def main(args=None):
                 ax.set_ylim(z_min - margin, z_max + margin)
                 
         # Update text displays
-        coord_text.set_text(f'X: {mocap_subscriber.current_x:.4f} m\nZ: {mocap_subscriber.current_z:.4f} m')
+        coord_text.set_text(f'X: {mocap_subscriber.current_x:.4f} m\nZ: {mocap_subscriber.current_z:.4f} m\nY: {mocap_subscriber.current_proximity:.4f} m')
         time_text.set_text(f'Time: {mocap_subscriber.current_time:.3f} s')
         point_count_text.set_text(f'Points: {len(mocap_subscriber.xs)}')
         
