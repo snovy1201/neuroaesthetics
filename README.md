@@ -68,7 +68,7 @@ If you've added the visualizer to your launch file:
 ```bash
 cd ~/neuroaesthetics
 source install/setup.bash
-ros2 launch mocap_pkg launch_y_up.launch.py
+ros2 launch launch/launch_y_up.py
 ```
 
 ### Option 2: Launch Components Separately
